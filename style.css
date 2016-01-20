@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "franklin-gothic-urw";
+}
+
+a:link {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:visited {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:hover {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:active {
+   text-decoration: none;
+   color: inherit;
+}
+
+#wrapper {
+    height: 100%;
+    margin-bottom: -80px;
+}
+
+#main {
+    text-align: center;
+    max-width:800px;
+}
+
+@media screen and (min-width: 800px) {
+    #main {
+    
+    margin: auto;
+        padding-top: 200px;
+    display:flex;
+    justify-content: space-around;
+        align-items: center;
+}
+}
+
+footer {
+    background:rgb(58,
+    58,
+    58);
+}
+
+body {
+    background: url(bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    height: 110px;
+    padding: 12px;
+    background: #616161;
+    text-align: center;
+}
+
+#main {
+   
+
+}
+#maintext p {
+    font-size: 3em;
+    background-color: rgba(97, 146, 181, 0.5);
+    padding: 49px;
+}
+#mainlinks {
+    padding-top: 20%;
+    font-size: 3em;
+}
+#logo {
+    height: 93px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: rgba(255,255,255,0.6);
+}
+
+footer a {
+    color: rgba(255,255,255,0.6);
+    position: relative;
+    top: 5px;
+    margin-left: 6px;
+    transition:color ease 0.3s;
+}
+
+footer a:hover {
+    color: rgba(255,255,255,1);
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+    button {
+        margin: 100px auto;
+        display:block;
+    }
+}
+
+button {
+    position: relative;
+    top: 0;
+    background: #616161;
+    border: none;
+    padding: 1em;
+    border-radius: 0.3em;
+    color: rgba(56,77,92,0.7);
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    width: 240px;
+    text-outline: none;
+    cursor: pointer;
+    transition: all ease 0.15s;
+    /*text-shadow:0 1px 1px rgba(255,255,255,0.3);*/
+    font-weight:bold;
+    letter-spacing: .03cm;
+}
+
+#button1 {
+ color: #fa9d30;
+}
+
+#button2 {
+ color: #2C95DD;
+}
+
+button:hover {
+    background: #c5d3dd;
+        color: rgba(56,77,92,1);
+
+}
+
+button:active {
+    top: 3px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+    
+    background:#fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+button .material-icons {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 9px;
+    font-size: 32px;
+}
