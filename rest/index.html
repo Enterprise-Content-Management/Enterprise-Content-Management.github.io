@@ -1,0 +1,153 @@
+<!--
+  ~ Copyright (c) 2016. EMC Corporation. All Rights Reserved.
+  -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope="itemscope" itemtype="http://schema.org/Product" ng-app="hub">
+<head prefix="og: http://ogp.me/ns# nodejsexpressdemo: http://ogp.me/ns/apps/nodejsexpressdemo#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Documentum REST Services</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="description" content="Build Documentum applications with REST API">
+    <link href="http://enterprise-content-management.github.io/dctm_logo_30x30.png" rel="shortcut icon" type="image/x-icon">
+    <meta property="og:title" content="Documentum REST">
+    <meta property="og:description" content="Build Documentum applications with REST API">
+    <meta property="og:image" content="http://enterprise-content-management.github.io/logo.png">
+    <meta property="og:site_name" content="Documentum REST">
+    <meta id="config-proxy-url" content="https://proxy.readme.io/proxy">
+    <link rel="canonical" href="http://enterprise-content-management.github.io/">
+    <!-- Application styles-->
+    <link rel="stylesheet" href="https://d2sl9eawlu179j.cloudfront.net/css/bundle-hub.css?1474332187796">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:500:sans-serif|Roboto:400:sans-serif" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://enterprise-content-management.github.io/rest/css/reststyle.css"/>
+</head>
+
+<body ng-controller="Root" class="layout page-home body-box theme-solid header-solid header-bg-size-auto header-bg-pos-tl header-overlay-triangles lumosity-dark undefined theme-threes">
+<div class="wrapper">
+    <header id="header" class="header">
+        <div class="container">
+        	<h1 class="navbar-brand"><a href="http://enterprise-content-management.github.io/">Documentum REST Services</a></h1>
+            <div class="navbar-collapse collapse">
+                <div id="project-info"></div>
+                <ul class="nav navbar-nav">
+                    <li><a href="https://support.emc.com/products/32689_Documentum-REST-Services/Documentation/" title="Documentation">Documentation</a></li>
+                    <li><a href="https://community.emc.com/docs/DOC-32266">Community</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1>Documentum REST API &amp; Docs</h1>
+                <p class="center">Make the API programming fun</p>
+                <div class="quick-menu">
+                    <div class="row">
+                        <a href="https://community.emc.com/docs/DOC-32266" class="col-md-6 box">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="http://enterprise-content-management.github.io/rest/images/restcommunity.png" alt="Cummunity on EMC Developer Network"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Developer Community</h2>
+                                    <p>Learn how to consume and customize Documentum REST Services, ask questions and share feedbacks.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://support.emc.com/products/32689_Documentum-REST-Services/Documentation/"
+                           class="col-md-6 box">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="http://enterprise-content-management.github.io/rest/images/restapi.png" alt="Documentation on EMC Support Site"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>API Documentation</h2>
+                                    <p>Official documentation for API references, development guide, release notes and whitepapers.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="sdks">
+	                <h2>Client Libraries and Samples</h2>
+	                <div class="sdk-table">
+	                    <div class="row">
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-java"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-java"></i>
+	                            </div>
+	                            <div class="row sdk-name">Java</div>
+	                        </a>
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-dotnet"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-csharp"></i>
+	                            </div>
+	                            <div class="row sdk-name">.NET</div>
+	                        </a>
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-python"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-python"></i>
+	                            </div>
+	                            <div class="row sdk-name">Python</div>
+	                        </a>
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-swift"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-iphone"></i>
+	                            </div>
+	                            <div class="row sdk-name">iOS (Swift)</div>
+	                        </a>
+	                    </div>
+	                    <div class="row">
+	                    	<a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-ruby"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-ruby"></i>
+	                            </div>
+	                            <div class="row sdk-name">Ruby</div>
+	                        </a>
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-objective-c"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-objc"></i>
+	                            </div>
+	                            <div class="row sdk-name">iOS (Objective-C)</div>
+	                        </a>
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-html5"
+	                           target="_blank"
+	                           class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-javascript"></i>
+	                            </div>
+	                            <div class="row sdk-name">AngularJS / HTML5 <br>(File Explorer)</div>
+	                        </a>
+	                        <a href="https://github.com/Enterprise-Content-Management/documentum-rest-client-angular-filemanager"
+	                           target="_blank" class="col-md-3">
+	                            <div class="row sdk-icon">
+	                                <i class="icon-javascript-alt"></i>
+	                            </div>
+	                            <div class="row sdk-name">AngularJS / Material <br>(File Manager)</div>
+	                        </a>
+	                    </div>
+	                </div>
+	            </div>
+            </div>
+        </div>
+    </header> 
+    <footer id="footer">
+	    <div class="container">
+	        <div>© 2016 EMC Corporation. All Rights Reserved.</div>
+	    </div>
+	</footer>
+</div>
+</body>
+</html>
