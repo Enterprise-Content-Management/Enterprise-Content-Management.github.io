@@ -21,7 +21,7 @@ There are three tutorials:
 
 Documentum supports three REST APIs, which are used for different purposes.
 
-* [Documentum REST](../rest/index.html) has the best support for Documentum, providing more features
+* [Documentum REST](../index.html) has the best support for Documentum, providing more features
   than the other REST APIs.  It is supported as a commercial product.
 * [CMIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) is an industry standard
    that is supported by several CMIS vendors. It is not as feature-rich as Documentum REST, and is
