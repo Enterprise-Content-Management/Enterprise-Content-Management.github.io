@@ -1,0 +1,11 @@
+--vFKDeJ2jOu0ZQqKu9BGfHj9otiMJq44EwXfiV
+Content-Disposition: form-data; name="metadata"
+Content-Type: application/vnd.emc.documentum+json;charset=UTF-8
+
+{"type":"dm_document","properties":{"title": "Document Time","object_name":"testdocument.txt"}}
+--vFKDeJ2jOu0ZQqKu9BGfHj9otiMJq44EwXfiV
+Content-Disposition: form-data; name="binary"
+Content-Type: plain/text; charset=UTF-8
+
+sample text content
+--vFKDeJ2jOu0ZQqKu9BGfHj9otiMJq44EwXfiV--
